@@ -1,0 +1,19 @@
+img{
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+}
+#center {    
+    text-align: center;  
+    }  
+#center-left {    
+    display: inline-block;
+    text-align: left;  
+ } 
+ #icon{
+     align-items: center;
+     width: auto;
+     height: auto;
+     text-align: center;
+ }
