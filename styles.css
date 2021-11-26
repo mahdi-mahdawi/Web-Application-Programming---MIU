@@ -1,3 +1,5 @@
+
+
 img{
     align-items: center;
     width: 500px;
@@ -11,9 +13,21 @@ img{
     display: inline-block;
     text-align: left;  
  } 
+ #center-right {    
+    display: inline-block;
+    text-align: right;  
+ } 
  #icon{
      align-items: center;
-     width: auto;
-     height: auto;
+     width: 100px;
+     height: 30px;
      text-align: center;
  }
+ h1{
+     font-family: Cursive;
+ }
+
+
+  
+  
+
