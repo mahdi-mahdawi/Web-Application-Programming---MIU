@@ -1,31 +1,123 @@
 
-
-img{
+body{
+	overflow-x: hidden;
+	
+	
+	
+}
+img.profile{
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	height: 350px;
+	margin-top: 40px;
+	margin-left: 40px;
+	border: 5px solid #61100b;
+}
+img.content{
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	height: 420px;
+	border: 5px solid #61100b;
+}
+img.profile:hover{
+	border: 10px solid #61100b;
+}
+img.content:hover{
+	border: 10px solid #61100b;
+}
+header{
+	background-image: url("images/Background.jpeg");
+	background-color: #cccccc;
+	margin-left: -10px;
+	margin-right: -10px;
+	margin-top: -10px;
+	height: 300px;
+}
+/* img{
     align-items: center;
     width: 500px;
     height: 500px;
     text-align: center;
+} */
+.main-container{
+	padding-top: 150px;
+	padding-left: 100px;
+	background-image: url("/images/dot1.png");
+	background-repeat: repeat;
+	background-size: all;
+	padding-bottom: 150px;
+
 }
-#center {    
-    text-align: center;  
-    }  
-#center-left {    
-    display: inline-block;
-    text-align: left;  
- } 
- #center-right {    
-    display: inline-block;
-    text-align: right;  
- } 
- #icon{
-     align-items: center;
-     width: 100px;
-     height: 30px;
-     text-align: center;
- }
- h1{
-     font-family: Cursive;
- }
+h1{
+	color: #071e42;
+	font-family: monospace;
+	font-size: 50px;
+}
+h2{
+	color: #071e07;
+	font-family: monospace;
+	font-size: 30px;
+}
+h3{
+	color: #071e07;
+	font-family: monospace;
+	font-size: 20px;
+}
+
+
+li{
+	font-family: "Comic Sans MS";
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+span{
+	font-family: "Bradley Hand";
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+a{
+	font-style:normal;
+	font-weight: 400;
+	color: #1a0301;
+}
+a:hover{
+	color: #a31f14;
+}
+
+footer.footer{
+	background-color: #757575;
+	height: 250px;
+	margin-right: -10px;
+	margin-left: -10px;
+	margin-bottom: -10px;
+	
+}
+p.info{
+	text-align: center;
+	font-size: 15px;
+	color: #fff;
+	margin-top: 100px;
+
+}
+
+
+.column {
+  /* float: left; */
+  width: 50%;
+  padding: 5px;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 
   

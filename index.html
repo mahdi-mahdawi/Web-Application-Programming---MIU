@@ -1,33 +1,47 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="styles.css">
-
+        <meta charset="utf-8">
+	    <meta name="description" content="Profile Page">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <link rel="stylesheet" type="image/png" href="foo.png">
+        <link rel="stylesheet"type="text/css"  href="styles.css">
+        <title>Home</title>
     </head>
-    <body>
-        <div id ="center">  
-            <img src="images/MahdiPhoto.jpg" alt="Mahdi's Photo">
+    <body >
+       
+        <header> <img class="profile" src="images/MahdiPhoto.jpg" alt="Mahdi's Photo"></header>
+        <div class="main-container">
             <h1>Mahdi Mahdawi</h1>
-            <div id ="center-left">  
+            
             <ul>
-                <li><a href="#">Lab 01 : This Home Page</a></li>
-                <li><a href="#">Lab 02 : CSS File for Styling</a></li>
+                <li><a href="#">Lab 01 : Home </a></li>
+                <li><a href="aboutme.html">Lab 02 : About Me</a></li>
                 <li><a href="#">Lab 03 : CSS File for Page Layout</a></li>
                 <li><a href="#">Lab 04 : HTML5 Forms</a></li>
                 <li><a href="#">Lab 05 : JavaScript for Web Applications</a></li>
                 <li><a href="#">Lab 06 : JavaScript for Web Apps</a></li>
 
             </ul>
-            </div>  
           
         </div>
-        <div id ="center">
+        
+        <footer class="footer">		
+            <p>
             <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fmahdi-mahdawi.github.io%2FWeb-Application-Programming---MIU%2F">
-                <img id="icon" src="images/HTML-checker.png" alt="Validation's Photo">
+                <img  src="images/HTML-checker.png" alt="Validation's Photo">
             </a>
-            <a href="">
-                <img id="icon" src="images/css_checker.png" alt="Validation's Photo">
+            <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fmahdi-mahdawi.github.io%2FWeb-Application-Programming---MIU%2F">
+                <img src="images/css_checker.png" alt="Validation's Photo">
             </a>
-        </div>
+        </p>
+       	
+		<p class="info">
+            Name: Mahdi Mahdawi<br/>
+			Maharishi International University<br/>
+			1000 4th St, Fairfield, IA 52557<br/>
+        </p>
+
+	</footer>
     </body>
 </html>

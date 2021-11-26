@@ -1,18 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <link rel="stylesheet" href="styles.css">
-    </head>
+        <link rel="stylesheet"type="text/css" href="styles.css">
+        <meta charset="utf-8">
+	    <meta name="description" content="Profile Page">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <link rel="stylesheet" type="image/png" href="foo.png">
+	    <title>Profile</title>
+        </head>
  
     <body>
-        <header> 
+        <header><img class="profile" src="images/MahdiPhoto.jpg" alt="Mahdi's Photo"></header>	
+        <div class="main-container">
+        
             <h1>About Mahdi Mahdawi</h1>
-            <h6>My name is Mahdi and I am in love with sports, specially
-                <strong>Football</strong> and <strong>Basketball</strong>.
-            </h6>
+            <h3>My name is Mahdi and I am in love with sports, specially
+                <a href="https://www.arsenal.com/"><em>Football</em></a> and <a href="https://www.nba.com/"><em>Basketball</em></a>.
+            </h3>
+            <hr/>
     
-        </header>
-        <h3>My Classes at Campus</h3>
+        
+        <h2>My Classes at Campus</h2>
         <ul>
             <li>WAP (CS 472) - Web Applcation Programming</li>
             <li>MWA (CS 572)- Modern Web Applcation</li>
@@ -20,30 +28,46 @@
             <li>WAA (CS 545)- Web Application Architecture </li>
         </ul>
 
-        <h3>My Favorite Movie</h3>
-        <p>I am very choosy for watching mvoies, here I list my 3 favorite movies</p>
+        <h2>My Favorite Movie</h2>
+        <span>I am very choosy for watching mvoies, here I list my 3 favorite movies</span>
         <ol>
             <li>Perfume <a href="https://www.imdb.com/title/tt0396171/">(imdb)</a></li>
             <li>The Pursuit of Happyness <a href="https://www.imdb.com/title/tt0454921/">(imdb)</a></li>
             <li>Coach Carter <a href="https://www.imdb.com/title/tt0393162/">(imdb)</a></li>
         </ol>
-        <h3>My Moods</h3>
+        <h2>My Moods</h2>
 
-        <div class ="view">  
-            <div id ="center-left">
-                <p>Happy me :)</p>
-                <img src="images/MahdiHappy.jpg" alt="Mahdi's Happy">
+        <div class="row">
+			<div class="column">
+                <img  class="content" src="images/MahdiHappy.jpg" alt="Mahdi's Happy">
+                <span>Happy me :)</span>
             </div>
-            <div id ="center-right">
-                <p>Sad me :(</p>
-                <img src="images/MahdiSad.jpg" alt="Mahdi's Sad">
+            <div class="column">
+                <img  class="content" src="images/MahdiSad.jpg" alt="Mahdi's Sad">
+                <span>Sad me :(</span>
             </div>
         </div>
 
-        <h3>Fun Facts About My Neighbors</h3>
+        <h2>Fun Facts About My Neighbors</h2>
         <ul>
-            <li>Yogal Modi: Talkative is only I can say about him, he uses 24/7 the phone</li>
-            <li>Elias Ahmad: Obsessed with assignment only, he will mary with them finally.</li>
+            <li>Yogal Modi: <strong>Talkative</strong> is only I can say about him, he uses 24/7 the phone</li>
+            <li>Elias Ahmad: <strong>Obsessed</strong> with assignment only, he will mary with them finally.</li>
         </ul>
+        </div>
+        <footer class="footer">		
+            <p>
+                <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fmahdi-mahdawi.github.io%2FWeb-Application-Programming---MIU%2F">
+                    <img  src="images/HTML-checker.png" alt="Validation's Photo">
+                </a>
+                <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fmahdi-mahdawi.github.io%2FWeb-Application-Programming---MIU%2F">
+                    <img src="images/css_checker.png" alt="Validation's Photo">
+                </a>
+            </p>
+		    <p class="info">
+                Name: Mahdi Mahdawi<br/>
+			    Maharishi International University<br/>
+			    1000 4th St, Fairfield, IA 52557<br/>
+            </p>
+	    </footer>
     </body>
 </html>
