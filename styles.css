@@ -30,13 +30,14 @@ img.content:hover{
 	border: 10px solid #61100b;
 }
 header{
-	background-image: url("images/Background.jpeg");
+	background-image: url("images/headerBackground.jpeg");
 	background-color: #cccccc;
 	margin-left: 0px;
 	margin-right: 0px;
 	margin-top: 0px;
 	margin-bottom: 5px;
 	height: 300px;
+	background-repeat:round;
 	
 }
 /* img{
@@ -50,7 +51,7 @@ header{
 	padding-left: 100px;
 	background-image: url("images/bodyBackground.png");
 	background-repeat:round;
-  	background-size: 2560px 1440px;
+  	background-size: 2560px 2560px;
 	padding-bottom: 100px;
 	padding-right: 100px;
 
