@@ -1,0 +1,144 @@
+* {
+  font-size: 1em;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  }
+  header{
+    background-image: url("../images/headerBackground.jpeg");
+    background-color: #cccccc;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    height: 300px;
+    background-repeat:round;
+    
+  }
+  .main-container{
+    padding-top: 150px;
+    padding-left: 100px;
+    background-image: url("../images/bodyBackground.png");
+    background-repeat:round;
+      background-size: 2560px 2560px;
+    padding-bottom: 100px;
+    padding-right: 100px;
+  
+  }
+  
+  h1 {
+  text-align: center;
+  font-size: 5rem;
+  }
+  h2{
+    color: #071e07;
+    font-family: monospace;
+    font-size: 30px;
+  }
+  
+  form {
+  width: 90%;
+  margin: 0 auto;
+  }
+  
+  .box {
+  padding: 0.5rem;
+  display: inline-block;
+  width: 70%;
+  padding: 1rem;
+ 
+  
+  }
+  a.button{
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.2s;
+    text-align: center;
+    }
+    a.button:hover{
+    color:#000000;
+    background-color:#FFFFFF;
+    }
+  
+  label {
+  display:inline;
+  }
+  
+  select, textarea{
+  display: inline-block;
+  width: 50%;
+  padding: 0.5rem;
+  
+  }
+  
+  
+  
+
+  .help{
+    margin: 2rem;
+    
+  }
+  @media all and (min-width: 35rem) and (max-width: 60rem) {
+  
+  .box {
+  float: left;
+  width: 40%;
+  }
+  
+  label {
+  display: block;
+  }
+  
+  
+  }
+  
+  @media all and (min-width:60rem) {
+  label {
+  display: inline;
+  width: 90px;
+  float: left;
+  }
+  
+  .box {
+  width: 50%;
+  float: left;
+  }
+  
+  input {
+  width: 50%;
+  }
+  
+  #masthead {
+  padding: 9rem;
+  }
+  }
+
+  footer.footer{
+    background-color: #f36e6e;
+    background-image: url("../images/footerBackground.png");
+    height: 250px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+   
+    
+  }
+  p.info{
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+    margin-top: 100px;
+  
+  }
