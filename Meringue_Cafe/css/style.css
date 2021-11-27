@@ -36,7 +36,18 @@ header > h1{
 	font-weight: bold;
 	text-align: center;
 }
-
+img{
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	height: auto;
+	width: auto;
+	text-align: center;
+}
+table{
+	align-items: center;
+}
 
 .main-container h1{
 	font-size: 18pt;		
