@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Form">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="image/png" href="foo.png">
+        <link rel="stylesheet" type="text/css"  href="../styles.css">
+        <link rel="icon" type="image/png" href="../images/form.png">
+        <title>Basic JavaScript</title>
+    </head>
+</head>
+<body>  
+    <header ></header>
+    <div class="main-container">
+        <h4> // for example the array is : const arr = [10,20,30,40];</h4>
+        <h4>   // and we call the function: sum(arr);</h4> 
+         <p>  function sum(arr){ <br/>
+               
+               const result = arr.filter(function(elem, i , array){<br/>
+                   return elem>20;<br/>
+                   }).reduce(function(accumulator, currentValue, currentIndex, array){<br/>
+                   return currentValue +accumulator;<br/>
+                   });<br/>
+               return result;<br/>
+               <h4>  // the result will be 70 </h4>
+           }
+           
+           <h4> // for example the array is : const arr = ["Domingos","Mahdi", "Mahdawi", "Mj"];</h4>
+            <h4>  // and we call the function: getNewArray(arr);</h4>
+           const getArray = function getNewArray(arr){<br/>
+               
+               const result = arr.filter(function(elem, i , array){<br/>
+                   return elem.length>=5;<br/>
+               }).filter(function(elem){<br/>
+                   return elem.includes('a');<br/>
+               });<br/>
+               console.log(result); <br/>
+               <h4>// the result will be: ["Mahdi", "Mahdawi"]</h4>
+           
+           }</p> 
+           <h2><a href="https://mahdi-mahdawi.github.io/Web-Application-Programming---MIU/">HOME</a></h2>
+    </div>
+    
+
+    <footer class="footer">	
+        <p>
+            <a href="https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fmahdi-mahdawi.github.io%2FWeb-Application-Programming---MIU%2F#l35c298"> 
+                <img src="../images/HTML-checker.png" alt="HTML5 validator link" />
+            </a>
+        </p>		
+      	
+        <p class="info">
+            Name: Mahdi Mahdawi<br/>
+            Maharishi International University<br/>
+            1000 4th St, Fairfield, IA 52557<br/>
+        </p>	
+    </footer>
+</body>
+    
+      
+
+</html>
